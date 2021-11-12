@@ -3,11 +3,11 @@ import cv2 as cv
 def rescale(frame, scale=0.5):
     dimension = (int(frame.shape[1]*scale),int(frame.shape[0]*scale))
     return cv.resize(frame, dimension,interpolation=cv.INTER_AREA)
-image = cv.imread('dataset/pandan/003.jpg')
-cv.imshow('Pandan', rescale(cv.imread('dataset/pandan/003.jpg')))
+image = cv.imread('Dataset/Pandan/003.jpg')
+cv.imshow('Pandan', rescale(cv.imread('Dataset/Pandan/003.jpg')))
 cv.waitKey(0)
 ########################################################## open image berupa array
-print(cv.imread('dataset/pandan/003.jpg'))
+print(cv.imread('Dataset/Pandan/003.jpg'))
 
 ########################################################## crop
 # im_crop = image[300:600,300:600]
@@ -49,7 +49,7 @@ print(cv.imread('dataset/pandan/003.jpg'))
 ####################################################### beruntun kontras
 import glob
 import numpy as np
-imdir = 'dataset/pandan/'
+imdir = 'Dataset/Pandan/'
 ext = ['png','jpg','gif'] #add image formats
 files = []
 [files.extend(glob.glob(imdir + '*.'+e)) for e in ext]
@@ -58,12 +58,12 @@ images = [cv.imread(file) for file in files]
 i = 1
 for img in images :
     im_kon = cv.addWeighted(img,1.5,np.zeros(img.shape,img.dtype),0,-100)
-    im_name = "dataset/pandan_kontras/" + str(i) + ".png"
+    im_name = "Dataset/pandan_kontras/" + str(i) + ".png"
     cv.imwrite(im_name, im_kon)
     i+=1
 ################################################################# beruntun  Greyscale
 import glob
-imdir = 'dataset/pandan/'
+imdir = 'Dataset/Pandan/'
 ext = ['png','jpg','gif'] #add image formats
 files = []
 [files.extend(glob.glob(imdir + '*.'+e)) for e in ext]
@@ -72,12 +72,12 @@ images = [cv.imread(file) for file in files]
 i = 1
 for img in images :
     im_gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-    im_name1 = "dataset/pandan_greyscale/" + str(i) + ".png"
+    im_name1 = "Dataset/pandan_greyscale/" + str(i) + ".png"
     cv.imwrite(im_name1, im_gray)
     i+=1
 ################################################################# beruntun edge
 import glob
-imdir = 'dataset/pandan/'
+imdir = 'Dataset/Pandan/'
 ext = ['png','jpg','gif'] #add image formats
 files = []
 [files.extend(glob.glob(imdir + '*.'+e)) for e in ext]
@@ -86,6 +86,6 @@ images = [cv.imread(file) for file in files]
 i = 1
 for img in images :
     im_edges = cv.Canny(img,100,200)
-    im_name2 = "dataset/pandan_edge/" + str(i) + ".png"
+    im_name2 = "Dataset/pandan_edge/" + str(i) + ".png"
     cv.imwrite(im_name2, im_edges)
     i+=1
