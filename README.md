@@ -8,6 +8,9 @@ Final project untuk mata kuliah Kecerdasan Buatan kelas 5D
 # About Daun Pandan
 [Daun Pandan](https://www.google.com/search?q=daun+pandan&tbm=isch&ved=2ahUKEwj-yZa119rzAhXkjtgFHT7PBpsQ2-cCegQIABAA&oq=daun+pandan&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEO8DECc6BAgAEBg6CwgAEIAEELEDEIMBUMqHAViqiwFgzI0BaABwAHgBgAHjAYgBogWSAQU2LjAuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=ue5wYb6JHeSd4t4Pvp6b2Ak&bih=663&biw=1366) merupakan komponen penting dalam tradisi masakan Indonesia dan negara-negara Asia Tenggara lainnya. Tumbuhan ini mudah dijumpai di pekarangan atau tumbuh liar di tepi-tepi selokan yang teduh. adapun beberapa manfaatnya bisa dilihat [di sini](https://www.dream.co.id/fresh/22-manfaat-daun-pandan-untuk-kesehatan-tubuh-tak-perlu-diragukan-lagi-191011f.html)
 
+# Image Processing Fundamental
+ bagian ini mengolah gambar dataset seperti yang didemonstrasikan oleh dosen. untuk codenya ada di bagian depan yaitu main.py lalu untuk hasil olah gambarnya ada di folder Dataset yang berupa edge, greyscale, kontras
+
 # ANN
 
 # CNN
