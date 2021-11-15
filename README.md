@@ -8,6 +8,10 @@ Final project untuk mata kuliah Kecerdasan Buatan kelas 5D
 # About Daun Pandan
 [Daun Pandan](https://www.google.com/search?q=daun+pandan&tbm=isch&ved=2ahUKEwj-yZa119rzAhXkjtgFHT7PBpsQ2-cCegQIABAA&oq=daun+pandan&gs_lcp=CgNpbWcQAzIICAAQgAQQsQMyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQ6BwgjEO8DECc6BAgAEBg6CwgAEIAEELEDEIMBUMqHAViqiwFgzI0BaABwAHgBgAHjAYgBogWSAQU2LjAuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=ue5wYb6JHeSd4t4Pvp6b2Ak&bih=663&biw=1366) merupakan komponen penting dalam tradisi masakan Indonesia dan negara-negara Asia Tenggara lainnya. Tumbuhan ini mudah dijumpai di pekarangan atau tumbuh liar di tepi-tepi selokan yang teduh. adapun beberapa manfaatnya bisa dilihat [di sini](https://www.dream.co.id/fresh/22-manfaat-daun-pandan-untuk-kesehatan-tubuh-tak-perlu-diragukan-lagi-191011f.html)
 
+# ANN
+
+# CNN
+
 # Contributors
 * 201910370311177  [Adam Titan Yusuf Fernando](https://github.com/2019-177-Adam)
 * 201910370311151  [Muhammad Anshar Maulidi](https://github.com/Ansar23-x)
